@@ -1,0 +1,61 @@
+h1 {font-family: Gabriola;
+    font-weight:bold;
+    color: black;
+    text-align: center;
+}
+
+h2 {font-family: Gabriola;
+    font-weight:bold;
+    color: black;
+    text-align: center;
+}
+
+h3 {font-family: Gabriola;
+    font-weight:bold;
+    color: black;
+    text-align: center;
+}
+
+h4 {font-family: Gabriola;
+    font-weight:bold;
+    color: black;
+    text_align: left;
+}
+
+li {font-family: Gabriola;
+    font-size:20px;
+    font-weight:bold;
+    color: black;
+    text-align: center;
+}
+
+ul {font-family: Gabriola;
+    font-size:20px;
+    font-weight:bold;
+    color: black;
+    text-align: center;
+}
+
+p {font-family: Gabriola;
+    font-size:20px;
+    font-weight:bold;
+    color: black;
+    text-align: center;
+    margin:15px 150px 15px 150px;
+}
+
+
+.buttons {
+    display: flex;
+    flex:0.8;
+    align-items: center;
+    justify-content: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+body { background-color: #addfad; }

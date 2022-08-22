@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>12 Step Worksheets</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename= 'steps.css') }}">
+
+</head>
+
+
+<div>{% include "navbar.html" %}</div>
+
+<h1>12 Step Worksheets</h1>
+
+<div class="buttons">
+    <a href="{{url_for('Step_1')}}"><button>Step 1</button></a>
+    <a href="{{url_for('Step_2')}}"><button>Step 2</button></a>
+    <a href="{{url_for('Step_3')}}"><button>Step 3</button></a>
+    <a href="{{url_for('Step_4')}}"><button>Step 4</button></a>
+    <a href="{{url_for('Step_5')}}"><button>Step 5</button></a>
+    <a href="{{url_for('Step_6')}}"><button>Step 6</button></a>
+    <a href="{{url_for('Step_7')}}"><button>Step 7</button></a>
+    <a href="{{url_for('Step_8')}}"><button>Step 8</button></a>
+    <a href="{{url_for('Step_9')}}"><button>Step 9</button></a>
+    <a href="{{url_for('Step_10')}}"><button>Step 10</button></a>
+    <a href="{{url_for('Step_11')}}"><button>Step 11</button></a>
+    <a href="{{url_for('Step_12')}}"><button>Step 12</button></a>
+
+</div>
+
+</body>
+</html>
